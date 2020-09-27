@@ -1,0 +1,28 @@
+header.title{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+div.background{
+    background-image: url(images/background2.png);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.info{
+    text-align: center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    display: inline-block;
+    font-weight: bold;
+    color: #000000;
+}
