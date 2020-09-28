@@ -1,20 +1,30 @@
+
+/*
+This is the top part of my page where I will eventually make fixed so that it follows when you scroll.
+ */
 header.title{
-    margin: 30px;
-    background-color: #ffffff;
+    /*margin: 10px;*/
+    background-color: darkgreen;
     border: 1px solid black;
-    opacity: 0.6;
-    text-decoration: underline;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
-    color: #000000;
+    color: White;
+    width: 100%;
 }
-div.background{
-    background-image: url(images/background2.png);
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/*
+I want a border around my header here
+ */
+header.title h1{
+    display:inline-block;
+    border: 2px solid white;
+    border-radius:15px;
+}
+/*
+this is where i edit my howl image
+ */
+section.header img{
+    width:100%;
 }
 div.info{
     text-align: center;
@@ -25,4 +35,5 @@ div.info{
     display: inline-block;
     font-weight: bold;
     color: #000000;
+    top:100%;
 }
