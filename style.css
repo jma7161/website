@@ -86,13 +86,14 @@ the link bar
 This is my information section.
  */
 .info{
-    background-color: green;
+    background-color: darkgreen;
     color: #000000;
     white-space: nowrap;
     width: 100%;
     max-width:1200px;
     margin:0 auto;
     position:relative;
+    border:3px solid black;
 
 
 }
@@ -107,6 +108,7 @@ This is my information section.
     height:50%;
     width:50%;
     margin:10% 10%;
+    border:5px solid black;
 }
 .info .para{
     position:absolute;
@@ -116,10 +118,38 @@ This is my information section.
     width:50%;
     height:100%;
     text-align: center;
+
 }
 .info p{
     font-size: 3vw;
     height:100%;
     width:100%;
-
 }
+/*
+This is the projects portion of my index page
+ */
+.projects{
+    background-color: darkgreen;
+    margin:0 15%;
+    border: 5px solid saddlebrown;
+    border-radius: 10px;
+}
+.projects ul{
+    list-style-position: inside;
+    padding:0 5%;
+}
+.projects h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5vw;
+    margin:5% 0;
+}
+.projects li{
+    font-size:3vw;
+    font-weight: bold;
+}
+.projects p{
+    font-weight: normal;
+}
+
+
